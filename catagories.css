@@ -1,0 +1,163 @@
+.logo-bar{
+    margin-top: 20px;
+    position: absolute;
+    padding-left: 50px;
+    padding-top: 15px;
+}
+.logoshort{
+    color: white;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px double white;
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* nav bar */
+nav{
+    background-color: black;
+    height: 100px;
+    margin-top: -20px;
+    width: 100%;
+    padding-top: 20px;
+}
+nav a{
+    color: white;  
+    font-size: 28px; 
+    padding: 25px;
+   float: right;
+   text-decoration: none;
+   text-transform: capitalize;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   }
+   nav a:hover{
+       color: deeppink;
+   font-weight: bold;
+   font-style: italic;
+   font-family: 'Times New Roman', Times, serif;
+   }
+
+
+.subbar{
+   height : 50px;
+   width: 100%;
+   background-color: rgb(0, 0, 255 ,0.85);
+}
+.subbar a{
+    color: white;
+    float: right;
+    padding: 15px 15px 5px 25px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.subbar a:hover{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+/* most liked */
+.most-liked{
+    margin-left: 8px;
+}
+.one,.two{
+    width: 200px;
+}
+.mostone,.newone{
+text-align: center;
+border: 1px solid black;
+width: 240px;
+float: left;
+padding: 25px;
+height: 350px;
+margin: 20px;
+font-family: 'Times New Roman', Times, serif;
+font-size: 20px;
+}
+
+
+
+/* dropdown content */
+
+/* ----------------------------------------- */
+/* dropdown- menu */
+.dropdown-mens-content,.dropdown-women-content,.dropdown-kids-content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 150px;
+    box-shadow: 0px 8px 16px 0px;
+    z-index: 1;
+   margin-top: 50px;
+   height: 300px;
+   text-align: center;
+   padding: 20px;
+   font-style: oblique;
+}
+.dropdown,.dropdownkids{
+    position: relative;
+    display: block;
+    float: right;
+}
+.dropdown-mens-content a , .dropdown-women-content a,.dropdown-kids-content a{
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+}
+.dropdown-mens-content a:hover, .dropdown-women-content a:hover,.dropdown-kids-content a:hover{
+    color: deeppink;
+}
+.dropdown:hover .dropdown-mens-content {
+    display: block;
+}
+.dropdownkids:hover .dropdown-kids-content {
+    display: block;
+}
+.dropdownwomen:hover .dropdown-women-content{
+    display: block;
+}
+.dropdownwomen{
+    position: relative;
+    display: block;
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+    .most-liked-container,.new-arrives-container{
+        margin-left: 0px;
+    }
+    .one,.two{
+       width: 100%;
+       padding: 0px;
+    }
+    h2{
+        font-size: 36px;
+    }
+
+   .mostone,.newone{
+        width: 45%;
+        height: 50%;
+        float: left;
+        border: 2px double grey;
+        padding: 2px;
+        text-align: center;
+        margin-left: 20px;
+        margin-bottom: 15px;
+        font-size: 36px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}

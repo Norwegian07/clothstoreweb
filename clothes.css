@@ -5,7 +5,7 @@ html,head{
 /* logo */
 .logo{
     width: 300px;
-    height: 100px;
+    height: 80px;
     background-color: black;
     position: absolute;
     text-align: left;
@@ -15,7 +15,7 @@ html,head{
 /* nav bar */
 nav{
     background-color: black;
-    height: 100px;
+    height: 80px;
     margin-top: -20px;
     width: 100%;
     padding-top: 20px;
@@ -31,8 +31,6 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 }
 nav a:hover{
     color: deeppink;
-    box-shadow: 0px 0px 5px white;
-    background-color: rgb(255, 255, 255);
 font-weight: bold;
 font-style: italic;
 font-family: 'Times New Roman', Times, serif;
@@ -56,12 +54,14 @@ h2{
     float: left;
     margin-left: 50px;
     margin-bottom: 25px;
+    margin-top: 15px;
 }
 .one,.two{
     width: 200px;
     padding: 30px;
     position: relative;
 }
+
 
 
 
@@ -81,6 +81,10 @@ h2{
        width: 100%;
        padding: 0px;
     }
+    h2{
+        font-size: 36px;
+    }
+
    .mostone,.newone{
         width: 45%;
         height: 50%;
@@ -91,6 +95,5 @@ h2{
         margin-left: 20px;
         margin-bottom: 15px;
         font-size: 36px;
-        box-shadow: 5px 10px 15px white;
     }
 }
