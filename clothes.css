@@ -1,0 +1,96 @@
+html,head{
+    width: 100%;
+    margin: 0;
+}
+/* logo */
+.logo{
+    width: 300px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    text-align: left;
+    margin-top: 10px;
+    box-shadow: 5px 10px 15px black;
+}
+/* nav bar */
+nav{
+    background-color: black;
+    height: 100px;
+    margin-top: -20px;
+    width: 100%;
+    padding-top: 20px;
+}
+nav a{
+ color: white;  
+ font-size: 28px; 
+ padding: 25px;
+float: right;
+text-decoration: none;
+text-transform: capitalize;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav a:hover{
+    color: deeppink;
+    box-shadow: 0px 0px 5px white;
+    background-color: rgb(255, 255, 255);
+font-weight: bold;
+font-style: italic;
+font-family: 'Times New Roman', Times, serif;
+}
+/* ===================================================== */
+/* h2 */
+h2{
+    margin-left: 8px;
+    clear: both;
+}
+/* -====================================================== */
+/* most liked */
+.most-liked{
+    margin-left: 8px;
+}
+.mostone,.newone{
+    width: 280px;
+    height: 370px;
+    text-align: center;
+    border: 1px solid grey;
+    float: left;
+    margin-left: 50px;
+    margin-bottom: 25px;
+}
+.one,.two{
+    width: 200px;
+    padding: 30px;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+    .most-liked-container,.new-arrives-container{
+        margin-left: 0px;
+    }
+    .one,.two{
+       width: 100%;
+       padding: 0px;
+    }
+   .mostone,.newone{
+        width: 45%;
+        height: 50%;
+        float: left;
+        border: 2px double grey;
+        padding: 2px;
+        text-align: center;
+        margin-left: 20px;
+        margin-bottom: 15px;
+        font-size: 36px;
+        box-shadow: 5px 10px 15px white;
+    }
+}
